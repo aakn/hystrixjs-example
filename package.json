@@ -1,5 +1,5 @@
 {
-	"name": "hystrix-test",
+	"name": "hystrixjs-example",
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
