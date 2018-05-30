@@ -18,7 +18,7 @@ export default (req, res) => {
 
 	const cmd = CommandFactory.getOrCreate('sample')
 		.run(promise)
-		.timeout(1000)
+		.timeout(2000)
 		.fallbackTo(fallback)
 		.build();
 
