@@ -3,7 +3,7 @@ import {
 } from 'hystrixjs';
 
 export default (request, response) => {
-	console.log("in here...");
+	console.log("Starting hystrix stream");
 	response.append('Content-Type', 'text/event-stream;charset=UTF-8');
 	response.append('Cache-Control', 'no-cache, no-store, max-age=0, must-revalidate');
 	response.append('Pragma', 'no-cache');
